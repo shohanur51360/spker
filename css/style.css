@@ -1,0 +1,1279 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/********************************************
+    *** Global css code start***
+*********************************************/
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/********************************************
+    *** Global css code end***
+*********************************************/
+
+/********************************************
+    *** Header-section css code start***
+*********************************************/
+.header-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url(../images/1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 662px;
+
+}
+.bg-light {
+    background-color: transparent!important;
+}
+.header-top{
+    width: 100%;
+    margin: 17px 0px 0px 0px;
+}
+.logo img{
+    width: 101px;
+    margin: 0px 0px 0px 0px;
+}
+.elementor-widget-opal-site-logo.elementor-widget-image .elementor-image>a img[src$=".svg"], .elementor-widget-opal-site-logo.elementor-widget-image .elementor-image>img[src$=".svg"], .elementor-widget-opal-site-logo.elementor-widget-image .elementor-image figure>a img[src$=".svg"] {
+    width: 101px;
+}
+.navbar-light .navbar-nav .active>.nav-link{
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 0px 0px 0px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #ffff;
+    font-size: 17px;
+    font-weight: 600;
+    margin: 0px 0px 0px 00px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #e84b76;
+}
+.btn-1 {
+    padding: 13px 21px;
+    background: linear-gradient(90deg, rgba(210,67,81,1) 50%, rgba(187,51,64,1) 69%);
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 0px;
+}
+.btn-1:hover{
+    background: rgb(211,0,55);
+background: linear-gradient(90deg, rgba(211,0,55,1) 0%, rgba(230,1,23,1) 35%, rgba(211,0,55,1) 100%);
+transition: 0.8s;
+}
+
+/*header-banner css code start*/
+.header-bottom{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.hb-left{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.hb-left h1 {
+    margin: 129px 0px 0px 0px;
+    font-family: 'Monoton', cursive;
+    color: #fff;
+    font-size: 50px;
+}
+.hb-left h2 {
+    margin: -36px 0px 5px 0px;
+    font-family: 'Monoton', cursive;
+    color: #fff;
+    font-size: 80px;
+}
+
+.hb-left strong {
+    margin: 0px 0px 0px 0px;
+    color: #fd4c66;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: inherit;
+}
+.hb-left h3{
+    margin: 0px 0px 0px 0px;
+    color: #ffff;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: inherit;
+
+}
+.hb-left p {
+    margin: 51px 0px 47px 0px;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+.btn-2 {
+    padding: 13px 21px;
+    background: linear-gradient(90deg, rgba(210,67,81,1) 50%, rgba(187,51,64,1) 69%);
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 0px;
+}
+.btn-2:hover{
+    background: rgb(211,0,55);
+background: linear-gradient(90deg, rgba(211,0,55,1) 0%, rgba(230,1,23,1) 35%, rgba(211,0,55,1) 100%);
+transition: 0.8s;
+}
+.hb-right {
+    width: 85%;
+    margin: 67px 0px 0px 108px;
+    background: #fff;
+    padding: 15px 15px;
+    text-align: center;
+    border-radius: 5px;
+}
+.divedier-1 {
+    background: rgb(211,0,55);
+    background: linear-gradient(90deg, rgba(211,0,55,1) 0%, rgba(230,1,23,1) 35%, rgba(211,0,55,1) 100%);
+    height: 4px;
+    width: 459px;
+    margin: 0px 0px 0px -15px;
+}
+
+.hb-right h1 {
+    font-size: 30px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #151748;
+    margin: 16px 0px 40px 0px;
+}
+input#inputEmail3 {
+    width: 100%;
+    margin-left: 37px;
+    background: #ffffb3;
+    border: 1px solid #ffffb3;
+    padding: 22px 21px;
+}
+select#inputState {
+    width: 100%;
+    background: #ffffb3;
+    border: 1px solid #ffffb3;
+    margin: 0px 0px 48px 23px;
+}
+.btn-3 {
+    padding: 5px 56px;
+    background: linear-gradient(90deg, rgba(210,67,81,1) 50%, rgba(187,51,64,1) 69%);
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 99px;
+}
+.btn-3:hover{
+    background: rgb(211,0,55);
+background: linear-gradient(90deg, rgba(211,0,55,1) 0%, rgba(230,1,23,1) 35%, rgba(211,0,55,1) 100%);
+transition: 0.8s;
+}
+.divedier-2 {
+    background: rgb(211,0,55);
+    background: linear-gradient(90deg, rgba(211,0,55,1) 0%, rgba(230,1,23,1) 35%, rgba(211,0,55,1) 100%);
+    height: 4px;
+    width: 459px;
+    margin: -15px 0px 0px 108px;
+}
+/*header-banner css code end*/
+
+/********************************************
+    *** Header-section css code end***
+*********************************************/
+
+/********************************************
+    *** Banner-section css code start***
+*********************************************/
+.banner-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background-image: url(../images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 80px 0px 0px;
+}
+.banner-top{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.banner-top img {
+    width: 30px;
+    margin: 0px 0px 0px -32px;
+}
+.banner-top h1 {
+    font-size: 47px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #151748;
+    margin-bottom: 50px;
+}
+/********************************************
+    *** Banner-section css code end***
+*********************************************/
+
+/********************************************
+    *** Icon-section css code start***
+*********************************************/
+.icon-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.one {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 15px 0px 0px;
+   
+}
+.one:hover{
+     box-shadow: 1px 10px 15px #ccc;
+     transition: 0.5s smooth;
+}
+.one img{
+     margin: 0px 0px 0px 0px;
+}
+.one h1 {
+    margin: 18px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+.one h1:hover{
+    color: #fd4c66;
+    transition: 0.5s smooth;
+}
+.one p {
+    margin: 21px 0px 0px 0px;
+    color: #9595aa;
+    font-size: 15px;
+    font-weight: 500;
+}
+.one .im-1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+}
+.one .im-1 img {
+    margin: 49px 0px 0px 0px;
+    width: 51px;
+}
+.two {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 15px 0px 0px;
+}
+.two:hover{
+     box-shadow: 1px 10px 15px #ccc;
+     transition: 0.5s smooth;
+}
+.two img{
+     margin: 0px 0px 0px 0px;
+}
+.two h1 {
+    margin: 18px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+.two h1:hover{
+    color: #fd4c66;
+    transition: 0.5s smooth;
+}
+.two p {
+    margin: 21px 0px 0px 0px;
+    color: #9595aa;
+    font-size: 15px;
+    font-weight: 500;
+}
+.two .im-1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+}
+.two .im-1 img {
+    margin: 49px 0px 0px 0px;
+    width: 51px;
+}
+.three {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 15px 0px 0px;
+}
+.three:hover{
+     box-shadow: 1px 10px 15px #ccc;
+     transition: 0.5s smooth;
+}
+.three img{
+     margin: 0px 0px 0px 0px;
+}
+.three h1 {
+    margin: 18px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+.three h1:hover{
+    color: #fd4c66;
+    transition: 0.5s smooth;
+}
+.three p {
+    margin: 21px 0px 0px 0px;
+    color: #9595aa;
+    font-size: 15px;
+    font-weight: 500;
+}
+.three .im-1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: right;
+}
+.three .im-1 img {
+    margin: 49px 0px 0px 0px;
+    width: 51px;
+}
+/********************************************
+    *** Icon-section css code end***
+*********************************************/
+
+/********************************************
+    *** Future-section css code start***
+*********************************************/
+.future-section {
+    width: 100%;
+    margin: 53px 0px 0px 0px;
+}
+.f1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.f1 img{
+    margin: 0px 0px 0px 0px;
+}
+.f2 {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: #fff;
+    padding: 70px 70px;
+}
+.f2 h1{
+    font-size: 37px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #151748;
+    margin-bottom: 50px;
+    margin: 0px 0px 0px 0px;
+}
+.f2 p {
+    margin: 49px 0px 0px 0px;
+    color: #9595aa;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+}
+/********************************************
+    *** Future-section css code end***
+*********************************************/
+
+/********************************************
+    *** Numbercount-section css code start***
+*********************************************/
+.numbercount-section {
+    width: 100%;
+    margin: 100px 0px 0px 0px;
+    text-align: center;
+}
+
+.wons{
+     width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.wons h2{
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+p.counter-wrapper {
+    font-size: 76px;
+    margin: 0px 0px 32px 0px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fd4c66;
+}
+.speaks{
+     width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.speaks h2{
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+.mains{
+     width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.mains h2{
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+.attns{
+     width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.attns h2{
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+/********************************************
+    *** Numbercount-section css code end***
+*********************************************/
+
+/********************************************
+    *** Details-section css code start***
+*********************************************/
+.details-section {
+    width: 100%;
+    margin: 80px 0px 0px 0px;
+    background: #151748;
+    padding: 50px 21px;
+}
+
+
+.details-top{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.details-top img {
+    width: 30px;
+    margin: 0px 0px 0px -32px;
+}
+.details-top h1 {
+    font-size: 47px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.details-bottom{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.details-bottom img{
+    margin-bottom: 43px;
+    width: 181px;
+    line-height: 41px;
+}
+.details-bottom img:hover{
+    box-shadow: 1px 10px 15px #fd4c66;
+}
+.btn-5 {
+    padding: 15px 56px;
+    background: linear-gradient(90deg, rgba(210,67,81,1) 50%, rgba(187,51,64,1) 69%);
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 410px;
+}
+.btn-5:hover{
+    background: rgb(211,0,55);
+background: linear-gradient(90deg, rgba(211,0,55,1) 0%, rgba(230,1,23,1) 35%, rgba(211,0,55,1) 100%);
+transition: 0.8s;
+}
+/********************************************
+    *** Details-section css code end***
+*********************************************/
+
+/********************************************
+    *** Speaker-section css code start***
+*********************************************/
+.speaker-section {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 80px 0px;
+}
+.speak-top{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.speak-top img {
+    width: 30px;
+    margin: 0px 0px 0px -32px;
+}
+.speak-top h1 {
+    font-size: 47px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #151748;
+    margin-bottom: 50px;
+}
+.speak-bottom{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.ss{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.ss img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.nam{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.nam h2 {
+    font-size: 37px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+    margin: 289px 0px -51px 0px;
+}
+.nam h2:hover{
+    color: #fd4c66;
+}
+.nam p{
+     margin: 49px 0px 0px 0px;
+    color: #9595aa;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.ss .nam {
+    width: 92.2%;
+    margin: -415px 0px 0px 0px;
+    height: 387px;
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    display: none;
+    transition: 1s;
+}
+.ss:hover .nam{
+    transition: 1s;
+    display: block;
+}
+/********************************************
+    *** Speaker-section css code end***
+*********************************************/
+
+/********************************************
+    *** Hurry-section css code start***
+*********************************************/
+.hurry-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.hurry-left {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: #151748;
+    padding: 116px 92px;
+     border-radius: 22px;
+    box-shadow: 1px 10px 15px #ccc;
+}
+.hurry-left h1{
+    font-size: 50px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+    margin: 0px 0px 0px 0px;
+}
+.hurry-left p{
+margin: 49px 0px 0px 0px;
+    color: #acadc0;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.hurry-right {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: linear-gradient(90deg, rgba(210,67,81,1) 50%, rgba(187,51,64,1) 69%);
+    padding: 50px 50px 2px;
+    text-align: center;
+     border-radius: 22px;
+    box-shadow: 1px 10px 15px #ccc;
+}
+.hurry-right h1{
+    font-size: 50px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+    margin: 0px 0px 0px 0px;
+}
+.hurry-right p {
+    margin: 20px 0px 30px 0px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.days{
+     width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.days h2 {
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.days p.counter-wrapper {
+    font-size: 50px;
+    margin: 0px 0px 22px 0px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #acadc0;
+}
+.hours{
+     width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.hours h2{
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.hours p.counter-wrapper {
+    font-size: 50px;
+    margin: 0px 0px 32px 0px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #acadc0;
+}
+.minits{
+     width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.minits h2{
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.minits p.counter-wrapper {
+    font-size: 50px;
+    margin: 0px 0px 32px 0px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #acadc0;
+;
+}
+.secends{
+     width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.secends h2{
+    margin: 0px 0px 30px 0px;
+    font-size: 30px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.secends p.counter-wrapper {
+    font-size: 50px;
+    margin: 0px 0px 32px 0px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #acadc0;
+}
+/********************************************
+    *** Hurry-section css code end***
+*********************************************/
+
+/********************************************
+    *** Card-section css code start***
+*********************************************/
+.card-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 80px 0px;
+    
+}
+.card-hea{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.card-hea img {
+    width: 30px;
+    margin: 0px 0px 0px -32px;
+}
+.card-hea h1 {
+    font-size: 47px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #151748;
+    margin-bottom: 50px;
+}
+.card-bot{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.card-1{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.card-header{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.card-header h2{
+    color: #74758f;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.card-body {
+    width: 100%;
+    margin: 0px 0px 38px 0px;
+}
+.card-title {
+    color: #000;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 67px;
+}
+.card-text {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 53px;
+}
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1.25rem;
+}
+.card:hover {
+    box-shadow: 1px 10px 15px#ccc;
+    background: #ccc;
+}
+.btn-8 {
+    padding: 15px 56px;
+    background: linear-gradient(90deg, rgba(210,67,81,1) 50%, rgba(187,51,64,1) 69%);
+    color: #fff;
+    text-transform: uppercase;
+    border: 0px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0px 0px 0px 0px;
+}
+.btn-8:hover{
+    background: rgb(211,0,55);
+background: linear-gradient(90deg, rgba(211,0,55,1) 0%, rgba(230,1,23,1) 35%, rgba(211,0,55,1) 100%);
+transition: 0.8s;
+}
+.card-2{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.card-3{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+
+/********************************************
+    *** Card-section css code end***
+*********************************************/
+
+/**********************************************
+    *** Feedback-section css code start ***
+**********************************************/
+.feedback-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 40px;
+}
+.feedback-top{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.feedback-top img {
+    width: 30px;
+    margin: 0px 0px 0px -32px;
+}
+.feedback-top h1 {
+    font-size: 47px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #151748;
+    margin-bottom: 50px;
+}
+.feedback-botom{
+     width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.feedback-botom .owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #ffffff;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+    border: 1px solid#757575;
+}
+.feedback-botom .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f1592a;
+}
+/**********************************************
+    *** Feedback-section css code end ***
+**********************************************/
+
+/**********************************************
+    *** venue-section css code start ***
+**********************************************/
+.venue-section{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    
+}
+.venue-left {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../images/HON_Neira_Fall_1920x1080.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    padding: 71px 70px 179px;
+    border-radius: 22px;
+    box-shadow: 1px 10px 15px #ccc;
+}
+.venue-left img {
+    width: 30px;
+    margin: 0px 0px 0px -32px;
+}
+.venue-left h1 {
+    font-size: 47px;
+    letter-spacing: 0.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.venue-right {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    background: #151748;
+    padding: 38px 79px;
+     border-radius: 22px;
+    box-shadow: 1px 10px 15px #ccc;
+}
+.five{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.five h1 {
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.five h1:hover{
+    color: #fd4c66;
+}
+.five h3 {
+    margin: 20px 0px 0px 0px;
+    color: #9c9cb2;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.six{
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+}
+.six h1 {
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.six h1:hover{
+    color: #fd4c66;
+}
+.six h3 {
+    margin: 20px 0px 0px 0px;
+    color: #9c9cb2;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+.seven{
+    width: 100%;
+    margin: 25px 0px 0px 0px;
+}
+.seven h1 {
+    margin: 0px 0px 0px 0px;
+    font-size: 25px;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.seven h1:hover{
+    color: #fd4c66;
+}
+.seven h3 {
+    margin: 20px 0px 0px 0px;
+    color: #9c9cb2;
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 28px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+/**********************************************
+    *** venue-section css code end ***
+**********************************************/
+
+/**********************************************
+    *** question-section css code start ***
+**********************************************/
+.question-section {
+    width: 100%;
+    margin: 80px 0px 0px 0px;
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7) ), url(../images/footer_background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 169px 0px 341px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.question-1{
+    width: 100%;
+    margin-bottom: 0px 0px 0px 0px;
+}
+.question-1 h1{
+     font-size: 70px;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+}
+.question-1 strong{
+     font-size: 70px;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fd4c66;
+}
+.question-1 h3 {
+    font-size: 22px;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 39px;
+}
+/**********************************************
+    *** question-section css code end ***
+**********************************************/
+
+/**********************************************
+    *** Update-section css code start ***
+**********************************************/
+.update-section {
+    width: 84%;
+    margin: -186px 0px 0px 115px;
+    background: linear-gradient(90deg, rgba(210,67,81,1) 50%, rgba(187,51,64,1) 69%);
+    padding: 80px 0px;
+    text-align: center;
+}
+.update-inner{
+    width: 100%;
+    margin-bottom: 0px 0px 0px 0px;
+}
+.update-inner h1{
+     font-size: 40px;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0px 0px 0px 0px;
+}
+.update-inner input#inputPassword2 {
+    padding: 30px 53px;
+    width: 800px;
+    margin: 23px 0px 0px 101px;
+    border-radius: 30px 0px 0px 30px;
+    font-size: 18px;
+    border: 1px solid#fe9eac;
+    background: #fe9eac;
+    color: #000;
+}
+.btn-9 {
+    margin: 22px 0px 0px -17px;
+    padding: 19px 34px;
+    background: #151748;
+    border-radius: 0px 30px 30px 0px;
+    border: 1px solid#151748;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.btn-9:hover{
+    background: #090a20;
+    transition: 0.8s;
+    border: 1px solid#090a20;
+
+}
+/**********************************************
+    *** Update-section css code end ***
+**********************************************/
+
+
+/**********************************************
+    *** footer-section css code start ***
+**********************************************/
+.footer-section{
+    width: 100%;
+    padding: 80px 0px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+}
+.footer-1{
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+}
+.footer-1 .elementor-widget-opal-site-logo.elementor-widget-image .elementor-image>a img[src$=".svg"], .elementor-widget-opal-site-logo.elementor-widget-image .elementor-image>img[src$=".svg"], .elementor-widget-opal-site-logo.elementor-widget-image .elementor-image figure>a img[src$=".svg"] {
+    width: 101px;}
+
+.footer-1 img.attachment-full.size-full.lazyloaded {
+    width: 101px;
+}
+.footer-2{
+    width: 100%;
+    margin: 0px 0px 0px 90px;
+}
+.footer-2 .nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+    margin:0px 0px 0px 0px;
+    font-weight: 600;
+}
+.footer-2 .nav-link:hover{
+    color: #fd4c66;
+}
+.footer-3{
+    width: 100%;
+    margin: 0px 0px 0px 66px;
+}
+.footer-3 ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-3 ul li a i {
+    font-size: 15px;
+    font-weight: 600;
+    border: 1px solid#fd4c66;
+    background: #fd4c66;
+    padding: 10px;
+    color: #fff;
+    border-radius: 30px;
+    margin-right: 5px;
+}
+.footer-3 ul li a i:hover{
+    background: transparent;
+    border: 1px solid#fd4c66;
+    color: #fd4c66;
+    transition: 0.8s;
+}
+.footer-bottom{
+    width: 100%;
+    margin:0px 0px 0px 0px;
+}
+.footer-bottom h2{
+   font-size: 15px;
+    letter-spacing: 1.25px;
+    font-family: "Staatliches",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 0px 0px 0px 0px;
+}
+.divedier-4 {
+    background: rgb(211,0,55);
+    background: linear-gradient(90deg, rgba(211,0,55,1) 0%, rgba(230,1,23,1) 35%, rgba(211,0,55,1) 100%);
+    height: 2px;
+    width: 100%;
+    margin: 50px 0px 20px 0px;
+}
+/**********************************************
+    *** footer-section css code end ***
+**********************************************/
+
+
+/*back to top css start */
+.top {
+    margin: -141px 31px 0px 0px;
+    float: right;
+}
+
+
+.btn-14 {
+    color: #fff;
+    background-color: transparent!important;
+    border-color:transparent !important;
+}
+.btn-14.focus, .btn-14:focus {
+    color: #fff;
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
+.btn-14:hover {
+    color: #fff;
+    background-color:transparent !important;
+    border-color: transparent !important;
+}
+/*back to top css end */

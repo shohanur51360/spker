@@ -1,0 +1,573 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 480px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /*css code start*/
+.hb-left h1 {
+    font-size: 34px!important;
+}
+.hb-left h2 {
+    font-size: 36px!important;
+}
+.hb-left strong {
+    margin: 0px 0px 0px 0px!important;
+    font-size: 20px!important;
+}
+.hb-left h3 {
+    margin: 14px 0px 0px 0px!important;
+    font-size: 20px!important;
+    line-height: 30px!important;
+}
+.hb-left p {
+    margin: 33px 0px 39px 0px!important;
+    font-size: 14px!important;
+}
+.header-section {
+    height: 1193px!important;
+}
+.hb-right {
+    width: 100%!important;
+    margin: 67px 0px 0px 0px!important;
+}
+.divedier-1 {
+    width: 290px!important;
+}
+.divedier-2 {
+    width: 290px!important;
+    margin: -15px 0px 0px 1px!important;
+}
+input#inputEmail3 {
+    margin-left: 0px!important;
+}
+select#inputState {
+    margin: 0px 0px 48px 0px!important;
+}
+.btn-3 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-top img {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-top h1 {
+    margin-left: 26px!important;
+}
+.details-top img {
+     margin: 0px 0px 0px 0px!important;
+}
+.details-top h1{
+    margin-left: 26px!important;
+}
+.speak-top img {
+      margin: 0px 0px 0px 0px!important;
+}
+.speak-top h1{
+    margin-left: 26px!important;
+}
+.card-hea img {
+     margin: 0px 0px 0px 0px!important;
+}
+.card-hea h1{
+    margin-left: 26px!important;
+}
+.feedback-top img {
+   margin: 0px 0px 0px 0px!important;
+}
+.feedback-top h1{
+    margin-left: 26px!important;
+}
+.one {
+    margin: 0px 0px 24px 0px!important;
+}
+.two {
+    margin: 0px 0px 24px 0px!important;
+}
+.three {
+    margin: 0px 0px 24px 0px!important;
+}
+.f1 img {
+    width: 100%!important;
+}
+.f2 {
+    padding: 67px 24px!important;
+}
+.wons h2 {
+    margin: 0px 0px 46px 0px!important;
+}
+.speaks h2 {
+margin: 0px 0px 46px 0px!important;
+}
+.mains h2 {
+margin: 0px 0px 46px 0px!important;
+}
+.btn-5 {
+    margin: 0px 0px 0px 0px!important;
+}
+.details-bottom img {
+    margin-bottom: 43px!important;
+    margin-left: 32px!important;
+}
+.ss .nam {
+    width: 91.2%!important;
+    margin: -347px 0px 0px 0px!important;
+    height: 317px!important;
+}
+.nam h2 {
+    margin: 231px 0px -51px 0px!important;
+}
+.hurry-left {
+    padding: 56px 22px!important;
+}
+.hurry-right {
+    padding: 36px 16px 2px!important;
+}
+.card-1 {
+    margin: 0px 0px 25px 0px!important;
+}
+.card-2 {
+    margin: 0px 0px 25px 0px!important;
+}
+.owl-carousel .owl-item img {
+    width: 100%!important;
+    height: 157px!important;
+}
+.venue-right {
+    margin: 0px 0px 0px 0px!important;
+    padding: 38px 43px!important;
+}
+.question-1 h1 {
+    font-size: 36px!important;
+}
+.question-1 strong {
+    font-size: 36px!important;
+}
+.question-1 h3 {
+    font-size: 22px!important;
+    line-height: 35px!important;
+}
+.update-section {
+    width: 87%!important;
+    margin: -186px 0px 0px 20px!important;
+    padding: 80px 0px!important;
+}
+.update-inner input#inputPassword2 {
+    padding: 24px 17px!important;
+    width: 168px!important;
+    margin: 23px 0px 0px 0px!important;
+}
+.btn-9 {
+    margin: 15px 0px 0px -17px!important;
+    padding: 14px 12px!important;
+}
+.footer-2 {
+    margin: 30px 0px 0px 0px!important;
+    text-align: center!important;
+}
+.footer-2 .nav-link {
+    margin: 0px -12px 0px 0px!important;
+}
+.footer-3 {
+    margin: 30px 0px 0px 1px!important;
+}
+.top {
+    margin: -23px 5px 0px 0px!important;
+}
+.footer-section {
+    padding: 80px 0px 0px!important;
+}
+.banner-section {
+    padding: 80px 0px 29px!important;
+}
+  /*css code end*/  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    /*css code start*/
+.hb-left h1 {
+    font-size: 40px!important;
+}
+.hb-left h2 {
+    font-size: 55px!important;
+}
+.hb-left strong {
+    margin: 0px 0px 0px 0px!important;
+    font-size: 25px!important;
+}
+.hb-left h3 {
+    margin: 14px 0px 0px 0px!important;
+    font-size: 25px!important;
+    line-height: 30px!important;
+}
+.hb-left p {
+    margin: 33px 0px 39px 0px!important;
+    font-size: 16px!important;
+}
+.header-section {
+    height: 1193px!important;
+}
+.hb-right {
+    width: 100%!important;
+    margin: 67px 0px 0px 0px!important;
+}
+.divedier-1 {
+    width: 450px!important;
+}
+.divedier-2 {
+    width: 450px!important;
+    margin: -15px 0px 0px 1px!important;
+}
+input#inputEmail3 {
+    margin-left: 0px!important;
+}
+select#inputState {
+    margin: 0px 0px 48px 0px!important;
+}
+.btn-3 {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-top img {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-top h1 {
+    margin-left: 26px!important;
+}
+.details-top img {
+     margin: 0px 0px 0px 0px!important;
+}
+.details-top h1{
+    margin-left: 26px!important;
+}
+.speak-top img {
+      margin: 0px 0px 0px 0px!important;
+}
+.speak-top h1{
+    margin-left: 26px!important;
+}
+.card-hea img {
+     margin: 0px 0px 0px 0px!important;
+}
+.card-hea h1{
+    margin-left: 26px!important;
+}
+.feedback-top img {
+   margin: 0px 0px 0px 0px!important;
+}
+.feedback-top h1{
+    margin-left: 26px!important;
+}
+.f2 p {
+    font-size: 11px!important;
+}
+.one {
+    margin: 0px 0px 24px 0px!important;
+}
+.two {
+    margin: 0px 0px 24px 0px!important;
+}
+.three {
+    margin: 0px 0px 24px 0px!important;
+}
+.f1 img {
+    width: 100%!important;
+}
+.f2 {
+    padding: 67px 24px!important;
+}
+.wons h2 {
+    margin: 0px 0px 46px 0px!important;
+}
+.speaks h2 {
+margin: 0px 0px 46px 0px!important;
+}
+.mains h2 {
+margin: 0px 0px 46px 0px!important;
+}
+.btn-5 {
+    margin: 0px 0px 0px 59px!important;
+}
+.details-bottom img {
+    margin-bottom: 43px!important;
+    margin-left: 119px!important;
+}
+.ss .nam {
+    width: 94.2%!important;
+    margin: -525px 0px 0px 0px!important;
+    height: 496px!important;
+}
+.nam h2 {
+    margin: 397px 0px -51px 0px!important;
+}
+.hurry-left {
+    padding: 56px 22px!important;
+}
+.hurry-right {
+    padding: 36px 16px 2px!important;
+}
+.card-1 {
+    margin: 0px 0px 25px 0px!important;
+}
+.card-2 {
+    margin: 0px 0px 25px 0px!important;
+}
+.owl-carousel .owl-item img {
+    width: 100%!important;
+    height: 250px!important;
+}
+.venue-right {
+    margin: 0px 0px 0px 0px!important;
+    padding: 38px 43px!important;
+}
+.question-1 h1 {
+    font-size: 59px!important;
+}
+.question-1 strong {
+    font-size: 36px!important;
+}
+.question-1 h3 {
+    font-size: 24px!important;
+    line-height: 35px!important;
+}
+.update-section {
+    width: 94%!important;
+    margin: -186px 0px 0px 14px!important;
+    padding: 80px 0px!important;
+}
+.update-inner input#inputPassword2 {
+    padding: 24px 33px!important;
+    width: 342px!important;
+    margin: 23px 0px 0px 0px!important;
+}
+.btn-9 {
+    margin: 15px 0px 0px -17px!important;
+    padding: 14px 12px!important;
+}
+.footer-2 {
+    margin: 30px 0px 0px 0px!important;
+    text-align: center!important;
+}
+.footer-2 .nav-link {
+    margin: 0px -14px 0px 0px!important;
+}
+.footer-3 {
+    margin: 30px 0px 0px 1px!important;
+}
+.top {
+    margin: -5px 5px 14px 0px!important;
+}
+.footer-section {
+    padding: 80px 0px 0px!important;
+}
+.banner-section {
+    padding: 80px 0px 29px!important;
+}
+  /*css code end*/ 
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /*css code start*/
+.hb-left h1 {
+    font-size: 37px!important;
+}
+.hb-left h2 {
+    font-size: 43px!important;
+}
+.hb-left strong {
+    margin: 0px 0px 0px 0px!important;
+    font-size: 25px!important;
+}
+.hb-left h3 {
+    margin: 14px 0px 0px 0px!important;
+    font-size: 25px!important;
+    line-height: 26px!important;
+}
+.hb-left p {
+    margin: 33px 0px 39px 0px!important;
+    font-size: 16px!important;
+}
+.header-section {
+    height: 712px!important;
+}
+.hb-right {
+    width: 100%!important;
+    margin: 67px 0px 0px 0px!important;
+}
+.divedier-1 {
+    width: 332px!important;
+}
+.divedier-2 {
+    width: 326px!important;
+    margin: -15px 0px 0px 1px!important;
+}
+input#inputEmail3 {
+    margin-left: 28px!important;
+}
+select#inputState {
+    margin: 0px 0px 48px 16px!important;
+}
+.btn-3 {
+    margin: 0px 0px 0px 37px!important;
+}
+.banner-top img {
+    margin: 0px 0px 0px 0px!important;
+}
+.banner-top h1 {
+    margin-left: 26px!important;
+}
+.details-top img {
+     margin: 0px 0px 0px 0px!important;
+}
+.details-top h1{
+    margin-left: 26px!important;
+}
+.speak-top img {
+      margin: 0px 0px 0px 0px!important;
+}
+.speak-top h1{
+    margin-left: 26px!important;
+}
+.card-hea img {
+     margin: 0px 0px 0px 0px!important;
+}
+.card-hea h1{
+    margin-left: 26px!important;
+}
+.feedback-top img {
+   margin: 0px 0px 0px 0px!important;
+}
+.feedback-top h1{
+    margin-left: 26px!important;
+}
+.f2 p {
+    font-size: 11px!important;
+}
+.one {
+    margin: 0px 0px 24px 0px!important;
+}
+.two {
+    margin: 0px 0px 24px 0px!important;
+}
+.three {
+    margin: 0px 0px 24px 0px!important;
+}
+.f1 img {
+    width: 110%!important;
+    height: 485px!important;
+}
+.f2 {
+    padding: 67px 24px!important;
+}
+.wons h2 {
+    margin: 0px 0px 46px 0px!important;
+}
+.speaks h2 {
+margin: 0px 0px 46px 0px!important;
+}
+.mains h2 {
+margin: 0px 0px 46px 0px!important;
+}
+.btn-5 {
+    margin: 0px 0px 0px 212px!important;
+}
+.details-bottom img {
+    margin-bottom: 43px!important;
+    margin-left: 119px!important;
+}
+.ss .nam {
+    width: 94.2%!important;
+    margin: -525px 0px 0px 0px!important;
+    height: 496px!important;
+}
+.nam h2 {
+    margin: 397px 0px -51px 0px!important;
+}
+.hurry-left {
+    padding: 56px 22px!important;
+}
+.hurry-right {
+    padding: 43px 16px!important;
+}
+.card-1 {
+    margin: 0px 0px 25px -27px!important;
+}
+.card-2 {
+    margin: 0px 0px 25px -12px!important;
+}
+.owl-carousel .owl-item img {
+    width: 100%!important;
+    height: 250px!important;
+}
+.venue-right {
+    margin: 0px 0px 0px 0px!important;
+    padding: 38px 43px!important;
+}
+.question-1 h1 {
+    font-size: 96px!important;
+}
+.question-1 strong {
+    font-size: 64px!important;
+}
+.question-1 h3 {
+    font-size: 25px!important;
+    line-height: 35px!important;
+}
+.update-section {
+    width: 96%!important;
+    margin: -186px 0px 0px 15px!important;
+    padding: 80px 0px!important;
+}
+.update-inner input#inputPassword2 {
+    padding: 24px 33px!important;
+    width: 521px!important;
+    margin: 23px 0px 0px 0px!important;
+}
+.btn-9 {
+    margin: 15px 0px 0px -17px!important;
+    padding: 14px 40px!important;
+}
+.footer-1 {
+    margin: 35px 0px 0px 0px!important;
+}
+.footer-2 {
+    margin: 30px 0px 0px 52px!important;
+    text-align: center!important;
+}
+
+
+.footer-2 .nav-link {
+    margin: 0px -14px 0px 0px!important;
+}
+.footer-3 {
+    margin: 30px 0px 0px 1px!important;
+}
+.top {
+    margin: -21px 5px 18px 0px!important;
+}
+.footer-section {
+    padding: 80px 0px 0px!important;
+}
+.banner-section {
+    padding: 80px 0px 29px!important;
+}
+
+.venue-left {
+	padding: 78px 70px 201px!important;
+}
+
+  /*css code end*/ 
+}
+
+
+
